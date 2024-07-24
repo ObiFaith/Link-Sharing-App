@@ -1,7 +1,7 @@
 import { LoginForm, Logo } from '@/index';
 import Link from 'next/link';
 
-export default function Home() {
+export default function Login() {
 	return (
 		<main className="py-10 sm:bg-light-grey min-h-screen">
 			<div className="pb-6 sm:pb-12">
