@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={instrumentSans.className}>{children}</body>
+      <body className={`${instrumentSans.className} mx-auto max-md:min-w-[45rem]`}>{children}</body>
     </html>
   );
 }

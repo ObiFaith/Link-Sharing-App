@@ -4,10 +4,10 @@ import { useState } from 'react';
 import Layout from './dashboardLayout';
 
 const Dashboard = () => {
-	const [active, setActive] = useState<number>(1);
+	const [active, setActive] = useState<number>(2);
 
 	return (
-		<main className="bg-light-grey p-4 sm:p-6 transition-all">
+		<main className="bg-light-grey max-md:max-w-[45rem] mxau p-4 sm:p-6 transition-all">
 			<Header active={active} setActive={setActive} />
 			{active === 1 && (
 				<Layout

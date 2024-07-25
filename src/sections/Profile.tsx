@@ -3,8 +3,8 @@ import { ProfileForm } from '@/index';
 
 const Profile = () => {
 	return (
-		<div className="*:bg-light-grey *:p-5 grid gap-6 *:rounded-lg ">
-			<div className="items-center sm:flex gap-4">
+		<div className='grid gap-6'>
+			<div className="items-center rounded-lg sm:flex p-5 mx-6 sm:mx-10 gap-4 bg-light-grey">
 				<p className="sm:w-2/5">Profile picture</p>
 				<div className="max-sm:space-y-6 sm:w-3/5 sm:flex gap-6 items-center">
 					<div className="bg-purple-light sm:w-7/12 inline-block px-9 max-sm:mt-4 py-14 rounded-lg">
@@ -23,9 +23,7 @@ const Profile = () => {
 					</p>
 				</div>
 			</div>
-			<div>
-				<ProfileForm />
-			</div>
+			<ProfileForm />
 		</div>
 	);
 };

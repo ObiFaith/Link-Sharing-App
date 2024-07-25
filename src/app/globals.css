@@ -26,7 +26,7 @@ body {
 		text-wrap: balance;
 	}
 	.input {
-		@apply placeholder:text-grey/50 w-full border invalid:border-red-400 border-clr focus:border-purple focus:shadow-lg max-sm:py-3 p-4 rounded-lg outline-none;
+		@apply placeholder:text-grey/50 w-full border invalid:border-red-400 border-clr focus:border-purple focus:shadow-lg py-3 pl-4 rounded-lg outline-none;
 	}
 	.btn-secondary {
 		@apply text-purple w-full py-3 text-base active:bg-purple-light hover:bg-purple-light font-semibold border rounded-lg border-purple;

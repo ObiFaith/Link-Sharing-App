@@ -27,7 +27,7 @@ const InputWithIcon = ({
 					{iconName && (
 						<Icon
 							name={iconName}
-							className="text-grey absolute top-[18px] sm:top-[22px] left-4"
+							className="text-grey absolute top-[18px] left-4"
 						/>
 					)}
 					<Field
