@@ -3,7 +3,9 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 const linkSlice = createSlice({
 	name: 'links',
 	initialState: [],
-	reducers: [(addLinks = (state, action) => {})],
+	reducers: {
+		addLinks: (state, action) => {},
+	},
 	extraReducers: builder => {},
 });
 

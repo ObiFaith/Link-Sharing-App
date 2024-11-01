@@ -12,7 +12,7 @@ const Icon = ({ name, color, size = 16, className }: IconProps) => {
 
   if (!LucideIcon) {
     console.error(`Icon "${name}" does not exist in "lucide-react"`);
-    return null;
+    return;
   }
 
   return <LucideIcon color={color} strokeWidth={2} absoluteStrokeWidth={true} size={size} className={className} />;
